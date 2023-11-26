@@ -57,6 +57,6 @@ def verify(
 
     computed_hmac_b64 = base64.b64encode(computed_hmac).decode()
     logger.debug(
-        f"Computed HMAC (base64): {computed_hmac_b64}, received: {hmac_sha256,}"
+        f"Computed HMAC (base64): {computed_hmac_b64}, received: {hmac_sha256}"
     )
     return verified
