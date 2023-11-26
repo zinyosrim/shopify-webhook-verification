@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "verifyshopify"
-version = "0.1.4"
+version = "0.1.5"
 description = "This module provides a utility function to verify the authenticity of data received from Shopify webhooks. It uses HMAC (Hash-based Message Authentication Code) with SHA-256 hashing to ensure that the data has not been tampered with in transit."
 authors = ["Zin Yosrim <zinyosrim@gmail.com>"]
 license = "MIT"
